@@ -24,7 +24,6 @@ data/cache/
 data/models/*
 artifacts/*
 runtime/*
-demo_videos/*.mp4
 build/
 dist/
 tmp/

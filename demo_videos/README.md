@@ -1,8 +1,8 @@
 # Bộ 9 video demo cho FallGuard Web
 
 Thư mục này chứa 9 video URFD đã được chọn để kiểm tra đúng luồng upload của
-dashboard. Các file MP4 được lưu cục bộ và bị loại khỏi Git để tránh làm
-repository quá lớn.
+dashboard. Cả 9 file MP4 được lưu trong Git để máy mới có thể lấy về bằng
+`git clone` hoặc `git pull --ff-only` và test ngay.
 
 ## Web dùng để làm gì?
 
@@ -32,7 +32,7 @@ Repo có sẵn checkpoint `artifacts/urfd_preview_gru/best.pt` và model pose
 full/lite trong `data/models/`, nên máy mới không cần huấn luyện lại.
 Nếu đã clone bản cũ, chạy `git pull --ff-only` trong thư mục dự án.
 Cài môi trường lần đầu bằng `powershell -ExecutionPolicy Bypass -File .\scripts\bootstrap.ps1`.
-Video mẫu MP4 vẫn cần tải riêng; có thể upload video của bạn để phân tích.
+Video mẫu MP4 có sẵn trong thư mục này; cũng có thể upload video của bạn để phân tích.
 Thông tin Telegram trong `.env` phải cấu hình riêng trên mỗi máy.
 
 Từ thư mục gốc dự án:
