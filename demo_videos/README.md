@@ -28,6 +28,13 @@ lưu dưới `runtime/`.
 
 ## Mở web demo
 
+Repo có sẵn checkpoint `artifacts/urfd_preview_gru/best.pt` và model pose
+full/lite trong `data/models/`, nên máy mới không cần huấn luyện lại.
+Nếu đã clone bản cũ, chạy `git pull --ff-only` trong thư mục dự án.
+Cài môi trường lần đầu bằng `powershell -ExecutionPolicy Bypass -File .\scripts\bootstrap.ps1`.
+Video mẫu MP4 vẫn cần tải riêng; có thể upload video của bạn để phân tích.
+Thông tin Telegram trong `.env` phải cấu hình riêng trên mỗi máy.
+
 Từ thư mục gốc dự án:
 
 ```powershell

@@ -45,6 +45,13 @@ output/pdf/*.toc
 !artifacts/.gitkeep
 !runtime/.gitkeep
 
+# Runtime models required by a fresh clone
+!artifacts/urfd_preview_gru/
+artifacts/urfd_preview_gru/*
+!artifacts/urfd_preview_gru/best.pt
+!data/models/pose_landmarker_full.task
+!data/models/pose_landmarker_lite.task
+
 # Local configuration and secrets
 .env
 .env.*
